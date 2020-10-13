@@ -1,0 +1,33 @@
+.module-spacer--extra-extra-small {
+  height: 12px
+}
+.module-spacer--extra-small {
+  height: 12px
+}
+.module-spacer--small {
+  height: 20px
+}
+.module-spacer--medium {
+  height: 32px
+}
+
+@media screen and (min-width: 576px) {
+  /*********** Module Spacer ***********/
+  .module-spacer--extra-extra-small {
+      height: 16px
+  }
+  .module-spacer--extra-small {
+      height: 20px
+  }
+  .module-spacer--small {
+      height: 32px
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+  /*********** Module Spacer ***********/
+  .module-spacer--medium {
+      height: 48px
+  }
+}
