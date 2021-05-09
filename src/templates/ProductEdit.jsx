@@ -124,15 +124,15 @@ const ProductEdit = () => {
         <div className="module-spacer--medium" />
         <ImageArea images={images} setImages={setImages} />
         <TextInput 
-          fullWidth={true} label={"商品名"} multiline={false} required={true} 
+          fullWidth={true} label={"商品名（必須）"} multiline={false} required={true} 
           rows={1} value={name} variant={"outlined"} type={"text"} onChange={inputName}      
         />
         <TextInput 
-          fullWidth={true} label={"商品説明"} multiline={true} required={true} 
+          fullWidth={true} label={"商品説明（必須）"} multiline={true} required={true} 
           rows={5} value={description} variant={"outlined"} type={"text"} onChange={inputDescription}      
         />
         <TextInput 
-          fullWidth={true} label={"価格"} multiline={false} required={true} 
+          fullWidth={true} label={"価格（必須）"} multiline={false} required={true} 
           rows={1} value={price} variant={"outlined"} type={"number"} onChange={inputPrice}      
         />
         <SelectBox 
