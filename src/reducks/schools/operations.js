@@ -157,7 +157,11 @@ export const saveProduct = (sellid, id, name, description, images, price, catego
 
 
     console.log(data)
-
+    
+    if (name === "" || description === "" || images === "" || price === ""){
+      alert("必須項目が未入力です")
+      return false
+    }
 
     if (id === "") {
       const ref = db.collection('products').doc()
